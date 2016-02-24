@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/application.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
     <title>Blog Template</title>
   </head>
   <body>
@@ -32,7 +32,7 @@
           Email: <input type='text' name='email' id='email' /><br />
           Comment:<br />
           <textarea name='comment' id='comment'></textarea><br />
-          <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+          <input type='hidden' name='articleid' id='articleid' />
           <input type='submit' value='Submit' />
         </form>
       </div>
@@ -41,14 +41,29 @@
         <p class="postInfo">Posted by Keir Staple  /  Feb 22, 2016  /  1 comments</p><br>
         <img src="img/trail.jpg">
         <p class="post">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <form method='post'>
+          NAME: <input type='text' name='name' id='name' /><br />
+          Email: <input type='text' name='email' id='email' /><br />
+          Comment:<br />
+          <textarea name='comment' id='comment'></textarea><br />
+          <input type='hidden' name='articleid' id='articleid' />
+          <input type='submit' value='Submit' />
+        </form>
       </div>
       <div class="posts">
         <h2>Lorem Ipsum</h2>
         <p class="postInfo">Posted by Keir Staple  /  Feb 21, 2016  /  1 comments</p><br>
         <img src="img/waterfall.jpg">
         <p class="post">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <form method='post'>
+          NAME: <input type='text' name='name' id='name' /><br />
+          Email: <input type='text' name='email' id='email' /><br />
+          Comment:<br />
+          <textarea name='comment' id='comment'></textarea><br />
+          <input type='hidden' name='articleid' id='articleid' />
+          <input type='submit' value='Submit' />
+        </form>
       </div>
-
     </div> <!--end container-->
   </body>
 </html>
