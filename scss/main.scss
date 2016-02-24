@@ -20,7 +20,8 @@
 // 4. Layout-related sections
 @import
   'layout/header',
-  'layout/footer';
+  'layout/footer',
+  'layout/body';
 
 // 5. Components
 @import
@@ -36,4 +37,7 @@
 
 // 8. Bourbon
 @import 'bourbon/bourbon';
-@import 'other-sass-partials-below';
+
+
+//9. Neat
+@import 'neat/neat';

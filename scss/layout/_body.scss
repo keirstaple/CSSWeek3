@@ -1,0 +1,16 @@
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed red;
+}
+
+html {
+  background: url('../img/bird-background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.post {
+  background-color: $post-background-color;
+}
