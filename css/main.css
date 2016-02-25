@@ -468,33 +468,32 @@ nav {
     font-family: Archistico-simple;
     text-align: center;
     margin-bottom: 0; }
-  @media screen and (min-width: 320px) {
-    nav .navSocialIcons {
-      position: relative;
-      display: inline-block;
-      text-align: center;
-      margin: 0;
-      vertical-align: top; } }
-  nav .navSocialIcons .socialIcons {
+  nav .navSocialIcons {
     position: relative;
-    z-index: 2;
-    float: left;
-    filter: grayscale(1); }
-    @media screen and (min-width: 320px) {
-      nav .navSocialIcons .socialIcons {
-        max-width: 25px;
-        display: inline-block;
-        margin: 1px;
-        padding: 0; } }
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0; }
+    nav .navSocialIcons .socialIcons {
+      position: relative;
+      z-index: 2;
+      float: left;
+      filter: grayscale(1); }
+      @media screen and (min-width: 320px) {
+        nav .navSocialIcons .socialIcons {
+          max-width: 25px;
+          display: inline-block;
+          margin: 1px; } }
   nav ul {
     position: relative;
     z-index: 2;
     list-style-type: none;
-    display: inline;
-    clear: both;
     margin: 0;
     padding: 0;
     text-align: center; }
+    @media screen and (min-width: 768px) {
+      nav ul li {
+        display: inline; } }
   nav .nav-background {
     position: absolute;
     left: 0;
@@ -502,10 +501,6 @@ nav {
     width: 100%;
     height: 97%;
     opacity: 0.05; }
-
-*:not(body):not(html) {
-  box-sizing: border-box;
-  border: 1px dashed red; }
 
 html {
   background: url("../img/bird-background.jpg") no-repeat center center fixed;

@@ -23,32 +23,31 @@ nav {
     margin-bottom: 0;
   }
   .navSocialIcons{
-    @media screen and (min-width: $breakpoint-small){
-      // @include span-columns(6);
-      position: relative;
-      display: inline-block;
-      text-align: center;
-      margin: 0;
-      vertical-align: top;
-    }
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
     .socialIcons{
       @include socialIcons;
       @media screen and (min-width: $breakpoint-small){
         max-width: 25px;
         display: inline-block;
         margin: 1px;
-        padding: 0;
       }
     }
   }
   ul {
     @include transparent;
     list-style-type: none;
-    display: inline;
-    clear: both;
     margin: 0;
     padding: 0;
     text-align: center;
+    li {
+      @media screen and (min-width: $breakpoint-medium){
+        display: inline;
+      }
+    }
     a{
       @extend #nameHeader;
     }
