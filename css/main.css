@@ -464,38 +464,30 @@ body {
 nav {
   position: relative;
   width: 100vw; }
-  nav h1 {
+  nav #nameHeader, nav ul a {
     font-family: Archistico-simple;
     text-align: center; }
-  nav .navSocialIcons {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    nav .navSocialIcons:last-child {
-      margin-right: 0; }
-    nav .navSocialIcons img.socialIcons {
+  @media screen and (min-width: 320px) {
+    nav .navSocialIcons .socialIcons {
+      position: relative;
+      z-index: 2;
       float: left;
-      max-width: 75px;
-      min-width: 50px;
-      height: auto;
-      position: relative; }
+      filter: grayscale(1);
+      max-width: 25px; } }
   nav ul {
+    position: relative;
+    z-index: 2;
     list-style-type: none;
     display: inline;
     clear: both;
-    z-index: 2;
-    position: relative;
     margin: 0;
     padding: 0; }
-    nav ul a {
-      text-align: center; }
   nav .nav-background {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 95%;
+    height: 97%;
     opacity: 0.05; }
 
 *:not(body):not(html) {
