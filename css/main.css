@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -415,7 +421,7 @@ body {
  * 3. Leave some space on the edges, especially valuable on small screens
  */
 .container {
-  max-width: 1180px;
+  max-width: 68em;
   /* 1 */
   margin-left: auto;
   /* 2 */
@@ -461,17 +467,29 @@ nav {
   nav h1 {
     font-family: Archistico-simple;
     text-align: center; }
-  nav li {
+  nav .navSocialIcons {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    nav .navSocialIcons:last-child {
+      margin-right: 0; }
+    nav .navSocialIcons img.socialIcons {
+      float: left;
+      max-width: 75px;
+      min-width: 50px;
+      height: auto;
+      position: relative; }
+  nav ul {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
+    clear: both;
     z-index: 2;
     position: relative;
-    margin-left: auto;
-    margin-right: auto; }
-  nav .socialIcons {
-    max-width: 50px;
-    height: auto;
-    position: relative; }
+    margin: 0;
+    padding: 0; }
+    nav ul a {
+      text-align: center; }
   nav .nav-background {
     position: absolute;
     left: 0;
@@ -493,11 +511,5 @@ html {
 
 .post {
   background-color: #FFFFFF; }
-
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
 
 /*# sourceMappingURL=main.css.map */
