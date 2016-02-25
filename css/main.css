@@ -465,10 +465,13 @@ nav {
     list-style-type: none;
     display: inline-block;
     z-index: 2;
-    position: relative; }
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; }
   nav .socialIcons {
     max-width: 50px;
-    height: auto; }
+    height: auto;
+    position: relative; }
   nav .nav-background {
     position: absolute;
     left: 0;
