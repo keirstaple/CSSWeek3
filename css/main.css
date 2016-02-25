@@ -378,6 +378,21 @@ a {
     color: #222222;
     text-decoration: underline; }
 
+@font-face {
+  font-family: Chicle-Regular;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Chicle-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Chicle-Regular.woff2") format("woff2"), url("../fonts/Chicle-Regular.woff") format("woff"), url("../fonts/Chicle-Regular.ttf") format("truetype"), url("../fonts/Chicle-Regular.svg#Chicle-Regular") format("svg"); }
+@font-face {
+  font-family: Archistico-bold;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Archistico_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Archistico_Bold.woff2") format("woff2"), url("../fonts/Archistico_Bold.woff") format("woff"), url("../fonts/Archistico_Bold.ttf") format("truetype"), url("../fonts/Archistico_Bold.svg#Archistico-bold") format("svg"); }
+@font-face {
+  font-family: Archistico-simple;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Archistico_Simple.eot?#iefix") format("embedded-opentype"), url("../fonts/Archistico_Simple.woff2") format("woff2"), url("../fonts/Archistico_Simple.woff") format("woff"), url("../fonts/Archistico_Simple.ttf") format("truetype"), url("../fonts/Archistico_Simple.svg#Archistico-simple") format("svg"); }
 /**
  * Basic typography style for copy text
  */
@@ -441,7 +456,11 @@ body {
   width: 1px; }
 
 nav {
-  position: relative; }
+  position: relative;
+  width: 100vw; }
+  nav h1 {
+    font-family: Archistico-simple;
+    text-align: center; }
   nav li {
     list-style-type: none;
     display: inline-block;

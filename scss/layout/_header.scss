@@ -3,6 +3,11 @@
 // -----------------------------------------------------------------------------
 nav {
   position: relative;
+  width: 100vw;
+  h1 {
+    font-family: Archistico-simple;
+    text-align: center;
+  }
   li {
     list-style-type: none;
     display: inline-block;
