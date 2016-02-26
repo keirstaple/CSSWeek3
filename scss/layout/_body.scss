@@ -11,8 +11,18 @@ html {
   background-size: cover;
 }
 
-.post {
+.postDiv {
   background-color: $post-background-color;
   padding: 10px;
   margin-top: 50px;
+  img {
+    width: 100%;
+    height: auto;
+    @media screen and (min-width: $breakpoint-large){
+      max-height: 200px;
+    }
+  }
+  @media screen and (min-width: $breakpoint-large){
+    @include span-columns(4);
+  }
 }
