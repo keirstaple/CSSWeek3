@@ -1,12 +1,12 @@
-# _{Sass Code Review}_
+# _Sass Code Review_
 
-#### _{Responsive site using Sass and Bourbon}_
+#### _Responsive site using Sass and Bourbon_
 
-#### By _**{Keir Staple}**_
+#### By _**Keir Staple**_
 
 ## Description
 
-_{This is a blog template built using Sass and Bourbon's mixin library.}_
+_This is a blog template built using Sass and Bourbon's mixin library._
 
 ## Setup/Installation Requirements
 
@@ -21,12 +21,12 @@ _When I used Neat's span-columns mixin for column layout, I couldn't get the spa
 
 ## Support and contact details
 
-_Contact Keir Staple at keirstaple@comcast.net_
+_Contact Keir Staple at keir.staple@gmail.com_
 
 ## Technologies Used
 
-_{This page was created using HTML, CSS and Sass. Bourbon's mixin library was used, as well as its Neat subsidiary}_
+_This page was created using HTML, CSS and Sass. Bourbon's mixin library was used, as well as its Neat subsidiary_
 
 ### License
 
-Copyright (c) 2015 **_{Keir Staple}_**
+Copyright (c) 2015 **_Keir Staple_**
